@@ -1,7 +1,12 @@
 ---
 title: Conformer(Convolution-augmented Transformer for Speech Recognition)
-date: 2020-09-17 12:01:54
+date: 2020-09-17 10:37:15
+comments: true
+toc: true
+categories: "论文" 
 tags:
+	- paper
+	- 深度学习
 ---
 
 # Convolution-augmented Transformer for Speech Recognition—翻译
@@ -94,7 +99,7 @@ FFN表示前馈模块,MHSA表示Multi-Head Self-Attention 模块，Conv表示卷
 
 如果没有语言模型，我们的 medium 模型在 test/test other上的新能已经打到2.3/5.0的优异结果。胜过最著名的Transformer，基于LSTM的模型或类似大小的卷积模型。添加语言模型后，我们的模型在所有现有模型中实现了最低的单词错误率。 这清楚地证明了在单个神经网络中结合使用Transformer和卷积的有效性。
 
-	>表2：Conformer与最近发布的模型的比较。我们的模型显示出对各种模型参数大小约束的一致改进。在参数为1030万时，与同期工作ContextNet（S）相比，我们的模型在test other上要好0.7％。在模型参数为30.7M的情况下，我们的模型已经大大优于具有139M参数的Transformer Transducer [7]先前发布的最新技术成果。
+> 表2：Conformer与最近发布的模型的比较。我们的模型显示出对各种模型参数大小约束的一致改进。在参数为1030万时，与同期工作ContextNet（S）相比，我们的模型在test other上要好0.7％。在模型参数为30.7M的情况下，我们的模型已经大大优于具有139M参数的Transformer Transducer [7]先前发布的最新技术成果。
 
 <img src="Conformer-Convolution-augmented-Transformer-for-Speech-Recognition/image-20200917120932784.png" alt="image-20200917120932784" style="zoom:67%;" />
 
