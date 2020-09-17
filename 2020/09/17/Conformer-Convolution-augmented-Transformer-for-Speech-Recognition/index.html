@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="paper,深度学习,">
 
 
 
@@ -80,6 +80,7 @@
 
 
 <meta name="description" content="Convolution-augmented Transformer for Speech Recognition—翻译Abstract最近基于Transformer和CNN的模型在ASR中变现非常出色，胜过循环神经网络(RNNs)。Transformer模型非常擅长捕获基于内容的全局信息，而CNN则能非常有效的利用本地特征。在这篇论文中，我们通过研究如何结合CNNs和Transfomers以par">
+<meta name="keywords" content="paper,深度学习">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Conformer(Convolution-augmented Transformer for Speech Recognition)">
 <meta property="og:url" content="http://yoursite.com/2020/09/17/Conformer-Convolution-augmented-Transformer-for-Speech-Recognition/index.html">
@@ -99,7 +100,7 @@
 <meta property="og:image" content="http://yoursite.com/2020/09/17/Conformer-Convolution-augmented-Transformer-for-Speech-Recognition/image-20200917121051937.png">
 <meta property="og:image" content="http://yoursite.com/2020/09/17/Conformer-Convolution-augmented-Transformer-for-Speech-Recognition/image-20200917121124455.png">
 <meta property="og:image" content="http://yoursite.com/2020/09/17/Conformer-Convolution-augmented-Transformer-for-Speech-Recognition/image-20200917121148957.png">
-<meta property="og:updated_time" content="2020-09-17T06:36:26.962Z">
+<meta property="og:updated_time" content="2020-09-17T06:45:03.621Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Conformer(Convolution-augmented Transformer for Speech Recognition)">
 <meta name="twitter:description" content="Convolution-augmented Transformer for Speech Recognition—翻译Abstract最近基于Transformer和CNN的模型在ASR中变现非常出色，胜过循环神经网络(RNNs)。Transformer模型非常擅长捕获基于内容的全局信息，而CNN则能非常有效的利用本地特征。在这篇论文中，我们通过研究如何结合CNNs和Transfomers以par">
@@ -304,7 +305,7 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-09-17T12:01:54+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-09-17T10:37:15+08:00">
                 2020-09-17
               </time>
             
@@ -314,6 +315,28 @@
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/论文/" itemprop="url" rel="index">
+                    <span itemprop="name">论文</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -427,7 +450,10 @@
 <p><strong><em>3.3. ResultsonLibriSpeech</em></strong></p>
 <p>表2将我们在LibriSpeech test-clean/test-other 上模型的WER结果与一些最新模型进行了比较，这些模型包括：ContextNet [10]，Transformer换能器[7]和QuartzNet [9]。我们所有的评估结果都将小数点后四舍五入到1位。</p>
 <p>如果没有语言模型，我们的 medium 模型在 test/test other上的新能已经打到2.3/5.0的优异结果。胜过最著名的Transformer，基于LSTM的模型或类似大小的卷积模型。添加语言模型后，我们的模型在所有现有模型中实现了最低的单词错误率。 这清楚地证明了在单个神经网络中结合使用Transformer和卷积的有效性。</p>
-<pre><code>&gt;表2：Conformer与最近发布的模型的比较。我们的模型显示出对各种模型参数大小约束的一致改进。在参数为1030万时，与同期工作ContextNet（S）相比，我们的模型在test other上要好0.7％。在模型参数为30.7M的情况下，我们的模型已经大大优于具有139M参数的Transformer Transducer [7]先前发布的最新技术成果。</code></pre><img src="/2020/09/17/Conformer-Convolution-augmented-Transformer-for-Speech-Recognition/image-20200917120932784.png" alt="image-20200917120932784" style="zoom:67%;">
+<blockquote>
+<p>表2：Conformer与最近发布的模型的比较。我们的模型显示出对各种模型参数大小约束的一致改进。在参数为1030万时，与同期工作ContextNet（S）相比，我们的模型在test other上要好0.7％。在模型参数为30.7M的情况下，我们的模型已经大大优于具有139M参数的Transformer Transducer [7]先前发布的最新技术成果。</p>
+</blockquote>
+<img src="/2020/09/17/Conformer-Convolution-augmented-Transformer-for-Speech-Recognition/image-20200917120932784.png" alt="image-20200917120932784" style="zoom:67%;">
 
 <p><strong>3.4. AblationStudies</strong></p>
 <p><strong><em>3.4.1. Conformer Block vs.TransformerBlock</em></strong></p>
@@ -474,6 +500,14 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/paper/" rel="tag"># paper</a>
+          
+            <a href="/tags/深度学习/" rel="tag"># 深度学习</a>
+          
+        </div>
       
 
       
@@ -576,7 +610,25 @@
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">categories</span>
+                
+              </div>
+            
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">tags</span>
+                
+              </div>
             
 
           </nav>
